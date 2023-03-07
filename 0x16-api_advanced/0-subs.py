@@ -15,4 +15,3 @@ def number_of_subscribers(subreddit):
 v1.0.0 (by /u/firdaus_cartoon_jr)'}).json()
     subs = r.get("data", {}).get("subscribers", 0)
     return subs
-
